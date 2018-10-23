@@ -1,15 +1,15 @@
 <template>
-  <div class="p">
-    Profile
-
+  <div>
+    <HeaderDiscren/>
   </div>
 </template>
 <script>
-  export default {}
+  import HeaderDiscren from '../../components/HeaderDiscren/HeaderDiscren.vue'
+  export default {
+    components:{
+      HeaderDiscren
+    }
+  }
 </script>
 <style lang="stylus" rel="stylesheet/stylus">
-  .p
-    width 100%
-    height 200px
-    background yellow
 </style>

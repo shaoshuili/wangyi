@@ -2,6 +2,8 @@
  <div class="app">
    <router-view/>
    <FooterGuide/>
+
+  <!-- <TopHeader/>-->
  </div>
 </template>
 
@@ -9,7 +11,7 @@
 import FooterGuide from './components/FooterGuide/FooterGuide.vue'
 export default {
   components:{
-    FooterGuide
+    FooterGuide,
   }
 }
 </script>

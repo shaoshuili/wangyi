@@ -1,10 +1,15 @@
 <template>
   <div>
-    Shopping
+   <HeaderShopping/>
   </div>
 </template>
 <script>
-  export default {}
+  import HeaderShopping from '../../components/HeaderShopping/HeaderShopping.vue'
+  export default {
+    components:{
+      HeaderShopping
+    }
+  }
 </script>
 <style lang="stylus" rel="stylesheet/stylus">
 

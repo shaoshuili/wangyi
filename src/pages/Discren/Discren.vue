@@ -1,10 +1,15 @@
 <template>
   <div>
-    Discren
+    <HeaderDiscren/>
   </div>
 </template>
 <script>
-  export default {}
+  import HeaderDiscren from '../../components/HeaderDiscren/HeaderDiscren.vue'
+  export default {
+    components:{
+      HeaderDiscren
+    }
+  }
 </script>
 <style lang="stylus" rel="stylesheet/stylus">
 

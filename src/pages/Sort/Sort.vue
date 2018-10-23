@@ -1,10 +1,15 @@
 <template>
   <div>
-    Sort
+    <HeaderSort/>
   </div>
 </template>
 <script>
-  export default {}
+  import HeaderSort from '../../components/HeaderSort/HeaderSort.vue'
+  export default {
+    components:{
+      HeaderSort
+    }
+  }
 </script>
 <style lang="stylus" rel="stylesheet/stylus">
 
